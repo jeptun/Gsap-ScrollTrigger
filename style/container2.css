@@ -1,0 +1,148 @@
+.container2 {
+  background-color: #1f1b1b;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+ul {
+  padding-left: 1rem;
+  list-style: none;
+}
+
+li {
+  flex-shrink: 0;
+  width: clamp(500px, 60vw, 600px);
+  padding-right: 1rem;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}  
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0);
+}
+.wrapper {
+  display: flex;
+  margin: auto;
+  font-family: "Playfair Display SC", serif;
+}
+.demo-wrapper {
+  overflow-x: hidden;
+}
+.demo-gallery:not(.last) {
+  padding-bottom: 1rem;
+}
+
+.demo-text .text {
+  font-size: clamp(7rem, 15vw, 12rem);
+  line-height: 1;
+  font-weight: 900;
+  color: #ffffff;
+}
+.absolut-text{
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 300px;
+  font-size: 8rem;
+  color: #fff;
+}
+.absolut-text1{
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 300px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.absolut-text2{
+  position: absolute;
+  margin-top: 950px;
+  margin-left: 1100px;
+  font-size: 5.5rem;
+  color: #fff;
+}
+.absolut-text3{
+  max-width: 400px;
+  position: absolute;
+  margin-top: 1050px;
+  margin-left: 1100px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.absolut-text4{
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: absolute;
+  margin-top: -320px;
+  margin-left: 100px;
+  font-size: 160rem;
+  color: rgba(255, 255, 255, 0.027);
+}
+
+/* 📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱📱*/
+
+@media (max-width: 1899px) {
+  .absolut-text{
+    font-size: 5rem;
+  }
+  .absolut-text2{
+    left: -400px;
+    font-size: 3rem;
+  }
+  .absolut-text3{
+    left: -400px;
+  }
+  .absolut-text4{
+    font-size: 130rem;
+  }
+}
+
+@media (max-width: 1466px) {
+  .absolut-text{
+    left: -200px;
+    top: 900px;
+  }
+  .absolut-text1{
+    left: -200px;
+    top: 900px;
+    
+  }
+  .absolut-text4{
+    font-size: 110rem;
+  }
+}
+@media (max-width: 1278px) {
+  .absolut-text4{
+    font-size: 80rem;
+  }
+}
+@media (max-width: 978px) {
+  .absolut-text2{
+    left: -800px;
+    font-size: 3rem;
+  }
+  .absolut-text3{
+    left: -800px;
+  }
+  .absolut-text4{
+    font-size: 60rem;
+  }
+}
+@media (max-width: 768px) {
+  .absolut-text4{
+    font-size: 50rem;
+  }
+
+}
+
+@media (max-width: 360px) {
+  
+  
+ 
+}
+

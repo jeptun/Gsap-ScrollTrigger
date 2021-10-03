@@ -1,0 +1,78 @@
+/* ⭕⭕⭕ Header ⭕⭕⭕*/
+/* ⭕⭕⭕ Header ⭕⭕⭕*/
+/* ⭕⭕⭕ Header ⭕⭕⭕*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth; 
+  background-color: #1f1b1b;
+}
+
+#navbar {
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 20px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 99;
+  font-family: 'Roboto', sans-serif;
+}
+
+hr#new1 {
+  margin-top: 35px;
+  margin-left: 15%;
+  margin-right: 24%;
+  border: 1px solid #000000;
+}
+#navbar #logo {
+  font-size: 17px;
+  font-weight: 100;
+  transition: 0.4s;
+  margin-left: 20px;
+  background-color: #1eff7c00;
+}
+
+#navbar a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 25px;
+  margin-left: 30px;
+}
+
+#navbar a:hover {
+    border: 1px solid #ebe6e6;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+  #navbar-right {
+    float: right;
+    padding-right: 40px;
+  }
+  
+  @media screen and (max-width: 580px) {
+    #navbar {
+      padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+    }
+    #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #navbar-right {
+      float: none;
+    }
+  }
