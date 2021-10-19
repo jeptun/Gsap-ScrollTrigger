@@ -25,11 +25,7 @@
 ## O projektu
 [![Product Name Screen Shot][product-screenshot]](https://test-gsap.netlify.app//)
 
-!Nedokončeno!
-Statická webovka, která sloužila pouze na vyzkoušení Gsap knihovny. Konkrétně animace při scroll na obr a textu. 
-Horizontální pohyb textu atd. Tato stránka nebyla nikdy doknčena a sloužila jen jako test.
-Není zde dodělaná responzibilita či nějaká smysluplný layout. 
-!Nedokončeno!
+!Test! Statická webová stránka sloužící k vyzkoušení Gsap knihovny, konkrétně zkouška animace při skrolování na obrázek a text, zkouška horizontálního pohybu textu, atd. Jelikož stránka sloužila jen jako test, není zde dodělaná responzivita a layout.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
